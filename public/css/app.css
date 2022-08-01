@@ -1,0 +1,20 @@
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.cards .card {
+  width: 25%;
+  height: 250px;
+  margin: 1em;
+  padding: 1em;
+  background-color: lightblue;
+  border: 1px solid black;
+}
+
+.cards .card .white {
+  color: white;
+}
+
